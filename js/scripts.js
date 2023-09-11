@@ -6,6 +6,9 @@ pokemonList = [
         height: 0.7
     }
     {
-        
+        name: 'Abra',
+        type: 'Psychic',
+        height: 0.9
     }
+    
 ]
