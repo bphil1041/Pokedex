@@ -18,7 +18,4 @@ pokemonList = [
         height: 0.9,
         weight: 19.5
     }
-   
-
-
 ]
