@@ -1,6 +1,5 @@
 // Pokemon Objects Array
-let pokemonList = [];
-pokemonList = [
+let pokemonList = [
     {
         name: 'Bulbasaur',
         type: ['Grass', 'Poison'],
