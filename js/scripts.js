@@ -13,10 +13,10 @@ let pokemonList = [
         weight: 6
     },
     {
-        name: 'Abra',
-        type: 'Psychic',
-        height: 0.9,
-        weight: 19.5
+        name: 'Gengar',
+        type: ['Ghost', 'Poison'],
+        height: 1.5,
+        weight: 40.5
     }
 ]
 
@@ -26,6 +26,6 @@ for (let i=0; i < pokemonList.length; i++){
     let pokemonHeight = pokemonList[i].height;
 
 
-    //Print pokemon name and heigh to the Dom
+    //Print pokemon name and height to the Dom
     document.write(pokemonName, pokemonHeight);
 }
