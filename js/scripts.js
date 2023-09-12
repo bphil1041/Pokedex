@@ -19,7 +19,7 @@ let pokemonList = [
         weight: 40.5
     }
 ];
-
+//Iterate the pokemon objects in the array
 for (let i=0; i < pokemonList.length; i++){
     //Define pokemonName and pokemonHeight
     let pokemonName = pokemonList[i].name;
@@ -27,7 +27,7 @@ for (let i=0; i < pokemonList.length; i++){
     let thresholdHeight = 1.0;
     let label = '';
     
-
+    //Is pokemon height above threshold?
     if (pokemonHeight > thresholdHeight){
         label = "That's a big pokemon!";
     }
