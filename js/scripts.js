@@ -19,3 +19,10 @@ let pokemonList = [
         weight: 19.5
     }
 ]
+
+for (let i=0; i < pokemonList.length; i++){
+    let pokemonName = pokemonList[i].name;
+    let pokemonHeight = pokemonList[i].height;
+
+    document.write(pokemonName);
+}
