@@ -34,6 +34,15 @@ for (let i=0; i < pokemonList.length; i++){
 
     //Print pokemon name and height to the Dom
     document.write(`${pokemonName} (height: ${pokemonHeight}${label})<br>`);
+}
 
+function divide(dividend, divisor){
+    if(divisor === 0){
+        return ("You're trying to divide by Zero")
+    }else {
+            let result = dividend / divisor;
+            return result; 
+        }
     
+
 }
