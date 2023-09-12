@@ -21,8 +21,9 @@ let pokemonList = [
 ]
 
 for (let i=0; i < pokemonList.length; i++){
+    //Define pokemonName and pokemonHeight
     let pokemonName = pokemonList[i].name;
     let pokemonHeight = pokemonList[i].height;
 
-    document.write(pokemonName);
+    document.write(pokemonName, pokemonHeight);
 }
