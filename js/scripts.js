@@ -33,7 +33,7 @@ for (let i=0; i < pokemonList.length; i++){
     }
 
     //Print pokemon name and height to the Dom
-    document.write(<br></br>`${pokemonName} (height: ${pokemonHeight}${label})`);
+    document.write(`${pokemonName} (height: ${pokemonHeight}${label})<br>`);
 
     
 }
