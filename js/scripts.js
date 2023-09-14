@@ -29,7 +29,7 @@ for (let i=0; i < pokemonList.length; i++){
     
     //Is pokemon height above threshold?
     if (pokemonHeight > thresholdHeight){
-        label = "That's a big pokemon!";
+        label = " That's a big pokemon!";
     }
 
     //Print pokemon name and height to the Dom
