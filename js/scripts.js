@@ -23,7 +23,7 @@ let pokemonList = [
 //forEach loop
 pokemonList.forEach(function(pokemon) {
     console.log(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms');
-    
+    document.write(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms')
 });
 
 
