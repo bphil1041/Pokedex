@@ -19,6 +19,13 @@ let pokemonList = [
         weight: 40.5
     }
 ];
+
+//forEach loop
+pokemonList.forEach(function(pokemon) {
+    console.log(pokemon.name);
+});
+
+
 //Iterate the pokemon objects in the array
 for (let i=0; i < pokemonList.length; i++){
     //Define pokemonName and pokemonHeight
