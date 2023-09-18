@@ -37,8 +37,13 @@ let pokemonRepository = (function (){
 //forEach loop
 pokemonRepository.getAll().forEach(function(pokemon) {
     console.log(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms');
+    let ulElement = document.querySelector('#pokemon-list');
     
+    let liElement = document.createElement('li');
+    liElement.textContent = pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms';
 
+    ulElement.appendChild(liElement);
+});
 
 
 // //forEach loop
