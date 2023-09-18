@@ -1,7 +1,7 @@
 // Pokemon Objects Array
 
-(function (){
-let pokemonList = [
+let pokemonRepository = (function (){
+    let pokemonList = [
     {
         name: 'Bulbasaur',
         type: ['Grass', 'Poison'],
@@ -19,16 +19,34 @@ let pokemonList = [
         type: ['Ghost', 'Poison'],
         height: 1.5,
         weight: 40.5
-    }
-];
-
+    }];
+    return {
+        getAll: function() {
+            return pokemonList;
+        },
+        add: function(item){
+            if (typeof item === 'object' && 'name' in item) {
+                pokemonList.push(item);
+            } else {
+                console.error('Invalid Pokemon object');
+            }
+        }
+    };
+})();
 
 //forEach loop
-pokemonList.forEach(function(pokemon) {
+pokemonRepository.getAll().forEach(function(pokemon) {
     console.log(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms');
     document.write(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms')
 });
-})();
+
+
+
+// //forEach loop
+// pokemonList.forEach(function(pokemon) {
+//     console.log(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms');
+//     document.write(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms')
+// });
 
 // //Iterate the pokemon objects in the array
 // for (let i=0; i < pokemonList.length; i++){
