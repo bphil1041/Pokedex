@@ -37,8 +37,7 @@ let pokemonRepository = (function (){
 //forEach loop
 pokemonRepository.getAll().forEach(function(pokemon) {
     console.log(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms');
-    document.write(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms')
-});
+    
 
 
 
