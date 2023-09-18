@@ -34,16 +34,17 @@ let pokemonRepository = (function (){
     };
 })();
 
+let ulElement = document.querySelector('.pokemon-list');
 //forEach loop
 pokemonRepository.getAll().forEach(function(pokemon) {
-    console.log(pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms');
-    let ulElement = document.querySelector('#pokemon-list');
-    
-    let liElement = document.createElement('li');
-    liElement.textContent = pokemon.name + ' is ' + pokemon.height + ' meters tall and ' + pokemon.weight + ' kilograms';
-
-    ulElement.appendChild(liElement);
+    let listItem = document.createElement('li');
+    let button = document.createElement('button');
+    button.innerText = pokemon.name;
+    button.classList.add('pokemon-button');
+    listItem.appendChild(button);
+    ulElement.appendChild(listItem);
 });
+
 
 
 // //forEach loop
