@@ -3,7 +3,7 @@ let pokemonRepository = (function () {
     let pokemonList = [
         {
             name: 'Bulbasaur',
-            type: ['Grass', 'Poison'],
+            type: 'Grass and poison',
             height: 0.7,
             weight: 6.9
         },
@@ -15,7 +15,7 @@ let pokemonRepository = (function () {
         },
         {
             name: 'Gengar',
-            type: ['Ghost', 'Poison'],
+            type: 'Ghost and poison',
             height: 1.5,
             weight: 40.5
         }];
@@ -53,7 +53,7 @@ let pokemonRepository = (function () {
 })();
 
 console.log(pokemonRepository.getAll());
-pokemonRepository.add({ name: "Pikachu", type: ["Electric"], height: 0.3, weight: 13 });
+pokemonRepository.add({ name: "Ninetales", type: "Fire", height: 1.1, weight: 19.9 });
 
 console.log(pokemonRepository.getAll());
 
