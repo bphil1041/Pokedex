@@ -19,6 +19,7 @@ let pokemonRepository = (function () {
             height: 1.5,
             weight: 40.5
         }];
+    let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150'
 
     function showDetails(pokemon) {
         console.log(pokemon);
