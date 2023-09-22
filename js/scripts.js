@@ -1,24 +1,6 @@
 let pokemonRepository = (function () {
 
-    let pokemonList = [
-        {
-            name: 'Bulbasaur',
-            type: 'Grass and poison',
-            height: 0.7,
-            weight: 6.9
-        },
-        {
-            name: 'Pikachu',
-            type: 'Electric',
-            height: 0.4,
-            weight: 6
-        },
-        {
-            name: 'Gengar',
-            type: 'Ghost and poison',
-            height: 1.5,
-            weight: 40.5
-        }];
+    let pokemonList = [];
     let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150'
 
     function showDetails(pokemon) {
