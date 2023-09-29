@@ -58,6 +58,7 @@ let pokemonRepository = (function () {
             console.error(e);
         });
     }
+    
     //modal
    function showDetails(pokemon) {
         let modal = document.getElementById('modal');
@@ -104,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
     pokemonRepository.loadList().then(function () {
         pokemonRepository.getAll().forEach(function (pokemon) {
             pokemonRepository.addListItem(pokemon);
+                console.log(pokemon.imageUrl);
         });
     });
 });
