@@ -58,7 +58,7 @@ let pokemonRepository = (function () {
             console.error(e);
         });
     }
-
+    //modal
    function showDetails(pokemon) {
         let modal = document.getElementById('modal');
         let modalName = document.getElementById('modal-name');
