@@ -61,34 +61,38 @@ let pokemonRepository = (function () {
     
     //modal
    function showDetails(pokemon) {
-        let modal = document.getElementById('modal');
-        let modalName = document.getElementById('modal-name');
-        let modalHeight = document.getElementById('modal-height');
-        let modalImage = document.getElementById('modal-image');
+        loadDetails(pokemon).then(() => {
+            let modal = document.getElementById('modal');
+            let modalName = document.getElementById('modal-name');
+            let modalHeight = document.getElementById('modal-height');
+            let modalImage = document.getElementById('modal-image');
+            
+            
 
-        modalName.textContent = 'Name: ' + pokemon.name;
-        modalHeight.textContent = 'Height: ' + pokemon.height + ' meters';
-        modalImage.src = pokemon.imageUrl;
+            modalName.textContent = pokemon.name;
+            modalHeight.textContent = 'Height: ' + pokemon.height + ' meters';
+            modalImage.src = pokemon.imageUrl;
+            
 
-        modal.style.display = 'block';
+            modal.style.display = 'block';
 
-        let closeButton = document.querySelector('.close');
-        closeButton.addEventListener('click', function () {
-            modal.style.display = 'none';
-        });
-
-        window.addEventListener('click', function (event) {
-            if (event.target === modal) {
+            let closeButton = document.querySelector('.close');
+            closeButton.addEventListener('click', function () {
                 modal.style.display = 'none';
-            }
-        });
+            });
 
-        window.addEventListener('keydown', function (event) {
-            if (event.key === 'Escape') {
-                modal.style.display = 'none';
-            }
-        });
+            window.addEventListener('click', function (event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
 
+            window.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape') {
+                    modal.style.display = 'none';
+                }
+            });
+        });   
    }
 
    return {
