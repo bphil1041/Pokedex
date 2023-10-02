@@ -66,11 +66,19 @@ let pokemonRepository = (function () {
             let modalName = document.getElementById('modal-name');
             let modalHeight = document.getElementById('modal-height');
             let modalImage = document.getElementById('modal-image');
-            
+            let modalTypes = document.getElementById('modal-types');
+
             modalName.textContent = pokemon.name;
             modalHeight.textContent = 'Height: ' + pokemon.height + ' meters';
             modalImage.src = pokemon.imageUrl;
+            modalTypes.innerHTML = '';   
             
+            pokemon.types.forEach(function (type) {
+                let typeElement = document.createElement('p');
+                typeElement.textContent = 'Type: ' + type.type.name;
+                modalTypes.appendChild(typeElement);
+            });
+    
 
             modal.style.display = 'block';
 
