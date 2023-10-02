@@ -67,8 +67,6 @@ let pokemonRepository = (function () {
             let modalHeight = document.getElementById('modal-height');
             let modalImage = document.getElementById('modal-image');
             
-            
-
             modalName.textContent = pokemon.name;
             modalHeight.textContent = 'Height: ' + pokemon.height + ' meters';
             modalImage.src = pokemon.imageUrl;

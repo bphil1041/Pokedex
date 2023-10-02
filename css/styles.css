@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    padding: 0;
+    padding: 50px;
 }
 
 .pokemon-button {
@@ -26,7 +26,7 @@ body {
 .modal {
     display: none;
     position: fixed;
-    top: 20px;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -47,6 +47,9 @@ body {
     background-color: rgb(238, 239, 207);
     font-family: monospace;
     font-size: 40px;
+    color: rgb(121, 4, 4);
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
     
 }
 
@@ -61,6 +64,9 @@ body {
 #modal-image {
     max-width: 100%;
     height: 300px;
+    border: ridge;
+    border-color: rgb(121, 4, 4);
+    background-color: rgb(246, 243, 234);
     
 
 }
@@ -69,4 +75,9 @@ h1 {
     font-family: monospace;
     font-size: 80px;
     text-align: center;
+    text-shadow: 5px 5px rgb(247, 235, 208);
+    color: rgb(121, 4, 4);
+    
+    
+
 }
