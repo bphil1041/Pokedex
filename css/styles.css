@@ -77,6 +77,10 @@ h1 {
     text-align: center;
     text-shadow: 5px 5px rgb(247, 235, 208);
     color: rgb(121, 4, 4);
+    border-style: double;
+    margin-left: 150px;
+    margin-right: 150px;
+    
     
     
 
