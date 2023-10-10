@@ -34,4 +34,7 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 
 ### References 
 
+Click the link below for PokeAPI credits
+https://pokeapi.co/about
+
 
