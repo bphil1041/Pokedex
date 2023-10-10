@@ -124,4 +124,10 @@ li {
 
   }
 
+  #searchInput {
+    background-color: white;
+    border-style: ridge;
+    border-color: rgb(247, 235, 208);
+  }
+
   
