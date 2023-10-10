@@ -1,45 +1,49 @@
-.pokemon-list {
+body {
+    background-color: rgb(21, 102, 117);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .navbar {
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-color: rgb(247, 235, 208);
+  }
+  
+  .pokemon-list {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
-    list-style: none; 
+    list-style: none;
     padding: 50px;
-    
-}
-
-.pokemon-button {
-    background-color: rgb(247, 235, 208);
-    color: rgb(121, 4, 4);
+    border-style: ridge;
+    border-color: rgb(247, 235, 208);
+  }
+  
+  .pokemon-button {
+    background-color: rgb(121, 4, 4);
+    color: rgb(247, 235, 208);
     border: ridge;
-    border-color: rgb(121, 4, 4);
+    border-color: rgb(247, 235, 208);
     padding: 10px 15px;
     margin: 5px;
     cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
     border-radius: 12%;
     
-    
-}
-
-body {
-    background-color: rgb(170, 221, 230);
-}
-
-.modal {
+  }
+  
+  .modal {
     display: none;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
-    
-}
-
-.modal-content {
+  }
+  
+  .modal-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -53,39 +57,56 @@ body {
     color: rgb(121, 4, 4);
     text-align: center;
     text-shadow: 2px 2px rgb(255, 255, 255);
-    
-}
+  }
 
-.close {
+
+  
+  .close {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 24px;
     cursor: pointer;
-}
-
-#modal-image {
-    max-width: 100%;
-    height: 300px;
-    border: ridge;
-    border-color: rgb(121, 4, 4);
-    background-color: rgb(246, 243, 234);
-    
-
-}
-
-h1 {
+  }
+  
+  
+  h1 {
     font-family: monospace;
-    font-size: 80px;
+    font-size: 100px;
     -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: rgb(247, 235, 208);
     color: rgb(121, 4, 4);
-
-}
-
-.navbar {
-    background-color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .pokemon-list {
+      padding: 20px;
+    }
     
+    .pokemon-button {
+      font-size: medium;
+    }
     
-}
+    h1 {
+      font-size: 60px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Adjust styles for screens up to 576px wide (small screens) */
+    .pokemon-button {
+      font-size: small;
+    }
+    
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .modal-title {
+    font-size: 40px;
+  }
 
