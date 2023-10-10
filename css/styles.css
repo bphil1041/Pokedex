@@ -32,7 +32,8 @@ body {
     border-radius: 12%;
     
   }
-  
+
+
   .modal {
     display: none;
     position: fixed;
