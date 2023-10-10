@@ -22,7 +22,10 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 
 
 ### Technologies 
-
++ HTML5
++ CSS3
++ JavaScript
++ Bootstrap v 4.3.1
 
 
 ### Libararies 
