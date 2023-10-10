@@ -116,4 +116,12 @@ li {
     font-size: 40px;
   }
 
+  #searchButton {
+    color: white;
+    background-color: rgb(121, 4, 4);
+    border-style: ridge;
+    border-color: rgb(247, 235, 208);
+
+  }
+
   
