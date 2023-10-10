@@ -16,8 +16,7 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 
 ### Overview 
 
-- Languages used
-    -
+The Pokédex was written using HTML, CSS, JavaScript, and Bootstrap. 
 
 
 ### Technologies 
