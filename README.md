@@ -1,6 +1,6 @@
 # First JavaScript app: Pokédex #
 ## Table of contents ##
--Introduction
+(-Introduction)
 
 
 
