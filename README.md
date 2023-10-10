@@ -1,5 +1,5 @@
-# First JavaScript app: Pokédex #
-## Table of contents ##
+# First JavaScript app: Pokédex 
+## Table of contents 
 -   [Introduction](#introduction)
 -   [Overview](#overview)
 -   [Technologies](#technologies)
@@ -8,19 +8,19 @@
 
 
 
-### Introduction ###
+### Introduction 
 
 
-### Overview ###
+### Overview 
 
 
-### Technologies ###
+### Technologies 
 
 
 
-### Libararies ###
+### Libararies 
 
 
-### References ###
+### References 
 
 
