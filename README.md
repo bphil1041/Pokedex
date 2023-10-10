@@ -29,6 +29,7 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 
 ### Libararies 
 + Bootstrap v 4.3.1
++ Polyfill 
 
 
 ### References 
