@@ -18,7 +18,7 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 
 + The Pokédex was written using HTML, CSS, JavaScript, and Bootstrap. 
 + Each Pokémon is displayed as a card, and can be viewed either by using the Search bar or by clicking on an individual card.
-+ Basic information about each Pokémon is given. 
++ Basic information about each Pokémon is given (name, image, height, type). 
 
 
 ### Technologies 
