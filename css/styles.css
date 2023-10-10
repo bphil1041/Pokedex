@@ -20,6 +20,8 @@ body {
   }
   
   .pokemon-button {
+    width: 125px;
+    height: auto;
     background-color: rgb(121, 4, 4);
     color: rgb(247, 235, 208);
     border: ridge;
