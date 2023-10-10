@@ -21,6 +21,8 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 + Basic information about each Pokémon is given (name, image, height, type). 
 
 
+
+
 ### Technologies 
 + HTML5
 + CSS3
@@ -34,7 +36,7 @@ This project is a simple, responsive Pokédex application built using HTML, CSS,
 
 ### References 
 
-Click the link below for PokeAPI credits
+Click the following link for PokeAPI credits:
 https://pokeapi.co/about
 
 
