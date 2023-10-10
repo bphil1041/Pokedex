@@ -1,6 +1,7 @@
 body {
-    background-color: #0e3d29 ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-radial-gradient(circle, #056521, #012a13);
+    font-size:30px;
   }
   
   .navbar {
