@@ -44,10 +44,13 @@ body {
     margin: auto;
     background-color: rgb(238, 239, 207);
     font-family: monospace;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(121, 4, 4);
-    text-align: center;
+    text-align: left;
     text-shadow: 2px 2px rgb(255, 255, 255);
+   
+
+    
     
   }
 .modal-body img {
@@ -56,6 +59,7 @@ body {
     border-style: ridge;
     border-color: rgb(121, 4, 4);
     background-color: white;
+    
     
 }
 
