@@ -1,1 +1,3 @@
-alert('Hello world')
+# First JavaScript app: Pokédex #
+
+

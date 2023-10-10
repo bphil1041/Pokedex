@@ -1,4 +1,4 @@
-// Create a pokemonRepository object using IIFE.
+// Create a pokemonRepository object using IIFE
 let pokemonRepository = (function () {
     // Initialize an empty array to store Pokémon data.
     let pokemonList = [];
