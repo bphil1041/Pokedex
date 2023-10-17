@@ -51,7 +51,7 @@ let pokemonRepository = (function () {
             pokemonRepository.showDetails(foundPokemon);
         } else {
             // Display an error message or handle not found scenario
-            alert('Pokemon not found.');
+            alert('Must be exact match to show result.');
         }
     });
 
