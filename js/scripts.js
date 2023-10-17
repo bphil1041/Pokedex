@@ -29,7 +29,7 @@ let pokemonRepository = (function () {
         listItem.appendChild(button);
         pokemonList.appendChild(listItem);
         // Add a click event listener to display Pokémon details in a modal.
-        button.addEventListener('click', function (event) {
+        button.addEventListener('click', function () {
             showDetails(pokemon);
         });
     }
