@@ -104,7 +104,7 @@ let pokemonRepository = (function () {
             modalTitle.text(pokemon.name);
             modalBody.html(`
             <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="img-fluid">
-            <p><strong>height:</strong> ${pokemon.height} meters</p>
+            <p><strong>height:</strong> ${pokemon.height} decimeters</p>
             <p><strong>type(s):</strong></p>
             <ul>
               ${pokemon.types.map(type => `<li>${type.type.name}</li>`).join('')}
