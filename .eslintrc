@@ -8,6 +8,6 @@
     ],
     "rules": {
         "quotes": ["error", "single"],
-        "no-undef": ["error", {"typeoff": true}]
+        "no-undef": ["error", {"typeof": true}]
     }
 }
